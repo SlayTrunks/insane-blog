@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import React, { useState } from "react";
 
-const addBlog = () => {
+const AddBlog = () => {
   const router = useRouter()
   const [text, setText] = useState({
     title: "",
@@ -78,4 +78,4 @@ const addBlog = () => {
   );
 };
 
-export default addBlog;
+export default AddBlog;

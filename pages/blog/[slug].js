@@ -4,7 +4,7 @@ import Loader from '../Loader'
 import Link from 'next/link'
 
 
-const slug = () => {
+const Slug = () => {
     const router = useRouter()
     const {slug} = useRouter().query
     const [blog, setBlog] = useState([])
@@ -77,4 +77,4 @@ const slug = () => {
  }
 }
 
-export default slug
+export default Slug

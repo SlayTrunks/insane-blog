@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import React, { useState } from "react";
 
-const addBlog = () => {
+const Slug = () => {
   const router = useRouter()
   const {slug} = useRouter().query
   const [text, setText] = useState({
@@ -81,4 +81,4 @@ const addBlog = () => {
   );
 };
 
-export default addBlog;
+export default Slug;
